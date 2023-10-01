@@ -120,7 +120,7 @@ p {
 }
 
 .brand-and-navBtn {
-    background: #000;
+    background: var(--darkgray);
     position: relative;
     z-index: 1000;
     height: 90px;
@@ -150,7 +150,7 @@ p {
 }
 
 .top-nav{
-    background: #000;
+    background: var(--gray);
     transform: translateY(-600px);
     transition: var(--transition);
 }
