@@ -81,7 +81,7 @@ p {
 }
 
 .active {
-    color: var(--green)!important;
+    color: var(--black)!important;
 }
 
 
@@ -93,6 +93,24 @@ p {
 
 .header {
     min-height: 100vh;
+    background: url(https://constructabilityreviewprocess.files.wordpress.com/2021/03/construction.jpg) center/cover no-repeat;
+    color: #f7f7f7;
+}
+
+.header-product {
+    min-height: 10vh;
+    background: url(https://constructabilityreviewprocess.files.wordpress.com/2021/03/construction.jpg) center/cover no-repeat;
+    color: #f7f7f7;
+}
+
+.header-result {
+    min-height: 10vh;
+    background: url(https://constructabilityreviewprocess.files.wordpress.com/2021/03/construction.jpg) center/cover no-repeat;
+    color: #f7f7f7;
+}
+
+.header-maps {
+    min-height: 10vh;
     background: url(https://constructabilityreviewprocess.files.wordpress.com/2021/03/construction.jpg) center/cover no-repeat;
     color: #f7f7f7;
 }
@@ -425,52 +443,19 @@ background: #f7f7f7;
 .section-five .container div{
     margin: 20px 0;
 }
-.contact-top{
-    text-align: center;
-}
+
 .contact-top h3{
-    font-size: 28px;
-}
-.contact-top p{
-    font-weight: 300;
-    width: 70%;
-    margin: 0 auto;
-}
-.contact-middle div{
-    text-align: center;
-    padding: 25px 0;
-    background: var(--darkgray);
-    color: #fff;
-}
-.contact-middle div span{
-    display: block;
-}
-.contact-icon{
     font-size: 30px;
+    text-align: center;
 }
-.contact-middle div span:nth-child(2){
-    font-size: 18px;
-    font-weight: bold;
+.gmap iframe{
+    width: 1200px; 
+    height: 500px; 
+    border-radius: 15px;
+    align-items: center;
+    margin: 0 30px;
 }
-.contact-middle div p{
-    font-weight: 300;
-    opacity: 0.7;
-}
-.contact-bottom{
-    margin-top: 50px!important;
-}
-.form input[type = "text"], .form input[type = "email"], .form textarea{
-    width: 100%;
-    font-size: 16px;
-    padding: 10px 15px;
-    margin: 10px 0;
-    border: 1px solid var(--green);
-    outline: none;
-    border-radius: 5px;
-}
-.contact-bottom .form{
-    padding: 0 20px;
-}
+
 /*footer*/
 .footer{
     background: var(--black);
@@ -600,6 +585,9 @@ background: #f7f7f7;
     }
     .sec-one-left{
         height: 100%;
+    }
+    .sec-one-left .btn{
+        display: none;
     }
     /*section four*/
     .blog-wrapper-lg{
